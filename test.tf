@@ -12,4 +12,5 @@ provider "aws"{
 }
 resource "aws_instance" "linux_server"{
     ami = ""
+    
 }
