@@ -6,7 +6,10 @@ terraform{
      }  
 }
 provider "aws"{
-    region = "Singapore"
+    region = "ap-southeast-1"
     access_key=""
     secret_key=""
+}
+resource "aws_instance" "linux_server"{
+    ami = ""
 }
